@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Assignment</title>
+</head>
+<body>
+  <h1>Upload Handwritten Assignment</h1>
+  <form method="post" enctype="multipart/form-data">
+    <label>Roll Number:</label>
+    <input type="text" name="roll" required><br><br>
+    <label>Upload Image:</label>
+    <input type="file" name="assignment" accept="image/*" required><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <br>
+  <a href="/download-report">Download PDF Report</a>
+</body>
+</html>
